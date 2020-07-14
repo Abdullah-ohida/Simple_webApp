@@ -5,7 +5,8 @@
 
 // ********** set date ************
 // select span
-const date = document.getElementById("date");
+console.log('hello world')
+const date = document.querySelector(".date");
 date.innerHTML = new Date().getFullYear();
 
 // ********** close links ************
